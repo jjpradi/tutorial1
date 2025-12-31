@@ -12,8 +12,8 @@ const Header = props => {
       {value => {
         const {count} = value
 
-        localStorage.setItem('setCount', count)
-        const newCount = localStorage.getItem('setCount')
+        localstorage.setItem('setCount', count)
+        const newCount = localstorage.getItem('setCount')
 
         return (
           <div className="header">
