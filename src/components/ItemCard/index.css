@@ -1,0 +1,121 @@
+.item-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 3px grey;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  align-items: center;
+  max-width: 100vw;
+}
+
+* {
+}
+.primary {
+  margin-right: 12px;
+align-items: flex-end;
+  color: orange;
+}
+
+.dish-info {
+  min-width: 40vw;
+
+  display: flex;
+
+  max-width: 40vw;
+
+  flex-direction: row;
+}
+
+.veg-cont {
+  margin: 6px;
+  border: solid green 5px;
+
+  align-self: flex-start;
+
+  padding: 3px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+}
+
+.non-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 6px;
+  border: solid red 5px;
+  align-self: flex-start;
+  padding: 3px;
+  height: 51px;
+}
+
+.veg {
+  padding: 11px;
+  background-color: green;
+  border-radius: 76px;
+}
+
+.non {
+  border-radius: 76px;
+
+  padding: 11px;
+
+  background-color: red;
+}
+
+.not-available {
+  color: red;
+}
+.dish-img {
+  margin-right: 7px;
+}
+.item-count-button {
+  border: solid;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: center;
+
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+
+  background-color: green;
+  color: #ffffff;
+  max-width: 13vw;
+}
+
+.button {
+  background-color: transparent;
+
+  color: #ffffff;
+
+  border: solid green;
+
+  font-size: 23px;
+}
+
+@media (max-width: 767px) {
+  .dish-info {
+    font-size: 13px;
+  }
+
+  .item-count-button {
+    min-width: 39vw;
+  }
+
+  .primary {
+    margin-right: 3px;
+
+    align-self: flex-end;
+  }
+}
